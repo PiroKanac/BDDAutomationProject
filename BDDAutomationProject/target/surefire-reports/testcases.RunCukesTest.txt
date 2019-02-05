@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: testcases.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 25.931 sec <<< FAILURE!
+Then User should not be logged in successfully(Scenario: Login with InValid credentials)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at testcases.Steps.user_should_not_be_logged_in_successfully(Steps.java:53)
+	at ?.Then User should not be logged in successfully(testcases/LoginTestCases.feature:15)
+
+Scenario: Login with InValid credentials  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at testcases.Steps.user_should_not_be_logged_in_successfully(Steps.java:53)
+	at ?.Then User should not be logged in successfully(testcases/LoginTestCases.feature:15)
+
